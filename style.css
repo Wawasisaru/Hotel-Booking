@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: lightgrey;
+    position: relative;
+}
+#par5{
+    text-align: center;
+    padding-top: 15%;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#par3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+#colo2{
+    color:#30A5BF ;
+}
+.home{
+    /* border: 2px solid red; */
+    height:100vh;
+    background-image: url("./images/705555288.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* NAVIGATION BAR */
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    position: fixed;
+    align-items: center;
+    /* margin-left: 30%; */
+    right: 0;
+    left: 0;
+    top:0;
+    background-color: black;
+    /* color: white; */
+    /* margin-bottom: 20px; */
+    text-align: center;
+    opacity: 0.6;
+    /* gap: 50%; */
+}
+#NuruShel{
+    font-size: 1.6rem;
+    font-weight: 700;
+    /* margin-left: auto; */
+    /* margin-left: 20px; */
+    /* text-align: left; */
+    /* border: 2px solid red; */
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.loginlink{
+    display: inline-block;
+}
+#login{
+    text-decoration: none;
+    color:blue;
+    border: 2px solid blue;
+    padding: 10px 18px 10px 18px;
+    border-radius: 5px;
+}
+.signup{
+    display: inline-block;
+}
+#signup{
+    text-decoration: none;
+    color:white;
+    /* border: 2px solid blue; */
+    padding: 10px 18px 10px 18px;
+    border-radius: 5px;
+    background-color: rgb(39, 145, 216);
+}
+/* P O P U L A R H O T E L S */
+.hotels >img {
+    width:90%;
+    height: 60%;
+    padding-top: 30%;
+}
+.popular{
+    display: flex;
+    /* height: 85vh; */
+}
+/* O U R F A C I  L I T I E S */
+#par6{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+}
+.link{
+    display: inline-block;
+    /* margin-left: 40px; */
+    text-align: left;
+    /* padding-bottom: 2%; */
+}
+#login2{
+    /* text-decoration: none; */
+    /* margin-left: 40px; */
+    color:blue;
+    padding-bottom: 2%;
+    border: 2px solid blue;
+    padding: 10px 18px 10px 18px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+#par7{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.facilities{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* padding: 30%; */
+    /* background-color: azure; */
+}
+.icons >img{
+    width:60%;
+    padding: 20%;
+    background-color: whitesmoke;
+    max-width: 60%;
+}
+.facilities2{
+    display: flex;
+    justify-content: space-around;
+}
+.icons2 >img{
+    width:60%;
+    padding:20%;
+    background-color: whitesmoke;
+    max-width: 60%;
+}
+/* R   O  O  M  S */
+#par8{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#par9{
+    text-align: center;
+    font-size: 25px;
+}
+.BigRooms{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding: 20%; */
+    /* margin: 20%; */
+    gap:12%;
+    /* box shaddow */
+}
+.room >img{
+    margin-left: 40%;
+    padding-top: 50%;
+}
+.secrooms{
+    display: flex;
+    gap:12%;
+}
+.room1 >img{
+    margin-left: 40%;
+    padding-top: 10%;
+}
+/*  O U R M E N U */
+#par10{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 5%;
+}
+#par11{
+    text-align: center;
+    font-size: 28px;
+}
+.ourmenu{
+    display: flex;
+    gap:12%;
+    margin:10%;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+}
+.fistmenu >img{
+    margin-left:30% ;
+    padding-top: 100%;
+    /* width: 200%; */
+}
+.ourmenu2{
+    display:flex;
+    gap:12%;
+    margin: 10%;
+    /* width: 200%; */
+    /* justify-content: space-between; */
+}
+.fistmenu2 >img{
+    margin-left: 30%;
+    padding-bottom:90%;
+    /* width: 200%; */
+    /* justify-content: space-around; */
+    /* height: 80%; */
+}
+/* O U R   C L I E N T S  S A Y S */
+.clientssay{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    /* flex-wrap: 20%; */
+}
+.clients >img{
+    border-radius: 50%;
+   max-width:100%;
+   width: 30%;
+}
+.clients{
+    background-color: white;
+    width: 30%;
+    padding: 8px;
+    height: 20vh;
+}
+.clientssay >*{
+    margin-top:50px;
+    
+}
+/* W H Y C H O O S E U S */
+.choose{
+    height: 100vh;
+    display: flex;
+    /* width: 400%; */
+}
+.picture{
+    /* border:2px solid red; */
+    width:30%;
+    background-image: url("./images/sincerely-media-o5Key-1HzaY-unsplash-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    /* height: 50px; */
+    padding-top: 60%;
+}
+.text{
+    border: 2px solid blue;
+    /* padding-top: 40%; */
+    width:70%;
+    padding-top: 15%;
+    /* padding-bottom: 20px; */
+    /* margin-top: 40px; */
+    /* padding: 20px; */
+    /* background-color: whitesmoke; */
+    height: 70vh;
+}
+.text >*{
+    border:3px solid red;
+    background-color: whitesmoke;
+    height: auto;
+
+}
+
+
+
+.icon3 >img{
+    border-radius:90px;
+    width: 10%;
+    /* padding-top: 40%; */
+    /* max-width: 10px; */
+}
+#par{
+    text-align: 30px;
+    padding-left: 30%;
+    margin-bottom:40%;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+body{
+    background-color: lightgray;
+}
+#leftImage{
+    width: 50%;
+}
+.icon > img{
+    width: 30%;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 50%;
+}
+.chooseUsContainer{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+.buttonSection{
+    padding: 30px;
+}
+button{
+    background-color: rgb(32, 152, 227);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+.iconContainer{
+    display: flex;
+    margin-top: 15px;
+}
+#us{
+    margin-top: 50px;
+}
+.footer{
+    border:2px solid red;
+}
+.finish{
+    /* height: 20vh; */
+    /* padding-bottom: 180px; */
+    background-color: skyblue;
+    padding:100px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    /* border-radius: 4%; */
+    /* padding-top: 20%; */
+    /* justify-content:space-evenly; */
+}
+#email{
+    padding: 25px;
+    width: 45%;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+/* .last{
+    padding-right: 90px;
+    margin: 10px;
+} */
+/* .smaller{
+    padding-top: 90px; */
+    /* margin: 50px; */
+
+/* .last{
+    /* display: flex;
+     */
+@media only screen and (max-width: 767px){
+    .navigationbar{
+        width:100%;
+    }
+    #par3{
+        font-size: 12px;
+    }
+    #NuruShel{
+        font-size: 1rem;
+    }
+    #login{
+        padding: 2px ;
+        display: none;
+    }
+    #signup{
+        padding:2px;
+        font-size:16px;
+        display:none;
+    }
+    ul li {
+        margin-left: 10px;
+    }
+    
+    body{
+        position:relative;
+    }
+
+
+}
+
