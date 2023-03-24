@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  font-weight: bold;
+  /* position: fixed; */
+  align-items: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.contactHeading {
+  font-size: 1.3rem;
+}
+.contactHeading > * {
+  margin-top: 10px;
+}
+#NuruShel {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration:none;
+  /* margin-left: auto; */
+  /* margin-left: 20px; */
+  /* text-align: left; */
+  /* border: 2px solid red; */
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.loginlink {
+  display: inline-block;
+}
+#login {
+  text-decoration: none;
+  color: blue;
+  border: 2px solid blue;
+  padding: 10px 18px 10px 18px;
+  border-radius: 5px;
+}
+.signup {
+  display: inline-block;
+}
+#signup {
+  text-decoration: none;
+  color: white;
+  /* border: 2px solid blue; */
+  padding: 10px 18px 10px 18px;
+  border-radius: 5px;
+  background-color: rgb(39, 145, 216);
+}
+#contactUs {
+  text-align: center;
+}
+body {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+  min-height: 600px;
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+form button {
+  padding: 10px 18px;
+  border-radius: 7px;
+  background-color: rgb(39, 145, 216);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  margin-top:50px;
+}
+.formDivider {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+input,
+textarea {
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid whitesmoke;
+  outline:none;
+}
+textarea {
+  padding: 20px;
+}
+#fname,
+#email,
+#postalCode,
+#message,
+#lname,
+#phoneNumber,
+#country {
+  margin-top: 30px;
+  text-align: left;
+}
